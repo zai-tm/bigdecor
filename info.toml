@@ -3,6 +3,3 @@ name = "Big decors"
 author = "Openplanet"
 category = "Map Editor"
 blocks = [ "Plugin_BigDecor", "Plugin_BigDecorNext" ]
-
-[script]
-imports = [ "Permissions.as" ]
