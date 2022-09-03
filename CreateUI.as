@@ -159,7 +159,7 @@ class CreateUI
 		UI::End();
 	}
 
-	void SetEnvironment(string enviro)
+	void SetEnvironment(const string &in enviro)
 	{
 		m_currentEnviro = enviro;
 
