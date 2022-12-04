@@ -260,7 +260,7 @@ class CreateUI
 		auto folderTitles = Fids::GetFakeFolder("Titles");
 		if (folderTitles !is null) {
 			for (uint j = 0; j < folderTitles.Trees.Length; j++) {
-				AddMods(folderTitles.Trees[j].GetFolder(skinsPath));
+				AddMods(Fids::GetFidsFolder(folderTitles.Trees[j], skinsPath));
 			}
 		}
 
