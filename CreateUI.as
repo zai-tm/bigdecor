@@ -195,7 +195,7 @@ class CreateUI
 
 		auto fidDeco = Fids::GetGame("GameData/Stadium/GameCtnDecoration/" + m_stadiumType + m_stadiumBase + m_currentMood + ".Decoration.Gbx");
 		if (fidDeco !is null) {
-			@deco = cast<CGameCtnDecoration>(fidDeco.Preload());
+			@deco = cast<CGameCtnDecoration>(Fids::Preload(fidDeco));
 			if (deco is null) {
 				error("Unable to load decor for base '" + m_stadiumType + "' with '" + m_stadiumBase + "' and mood '" + m_currentMood + "'!");
 				return;
