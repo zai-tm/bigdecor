@@ -267,7 +267,7 @@ class CreateUI
 		m_currentMod = "";
 	}
 
-	void AddMods(CSystemFids@ folder)
+	void AddMods(CSystemFidsFolder@ folder)
 	{
 		if (folder is null) {
 			return;
