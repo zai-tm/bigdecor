@@ -290,6 +290,7 @@ class CreateUI
 			if (fid.ShortFileName == "Stadium" || fid.ShortFileName == "StadiumCE") {
 				m_environments.InsertLast("Stadium");
 				m_archetypes.InsertLast("CarSport");
+				m_archetypes.InsertLast("CarSnow");
 				m_archetypes.InsertLast("CharacterPilot");
 			}
 
