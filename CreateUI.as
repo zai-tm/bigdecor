@@ -14,15 +14,15 @@ class CreateUI
 	};
 
 	array<string> m_moods = {
-		"Sunrise",
-		"Day",
-		"Sunset",
-		"Night"
+		"Screen155Sunrise",
+		"Screen155Day",
+		"Screen155Sunset",
+		"Screen155Night"
 	};
 
 	string m_currentEnviro;
 	string m_currentCar;
-	string m_currentMood = "Day";
+	string m_currentMood = m_moods[1];
 	string m_currentMod;
 
 	array<string> m_environments;
