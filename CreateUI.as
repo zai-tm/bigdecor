@@ -291,6 +291,8 @@ class CreateUI
 				m_environments.InsertLast("Stadium");
 				m_archetypes.InsertLast("CarSport");
 				m_archetypes.InsertLast("CarSnow");
+				m_archetypes.InsertLast("CarRally");
+				m_archetypes.InsertLast("CarDesert");
 				m_archetypes.InsertLast("CharacterPilot");
 			}
 
